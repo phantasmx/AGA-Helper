@@ -81,8 +81,11 @@
             this.Controls.Add(this.button_rename);
             this.Controls.Add(this.button_merge);
             this.Controls.Add(this.button_replace);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.TopMost = true;
             this.ResumeLayout(false);
 
         }
